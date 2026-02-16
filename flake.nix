@@ -58,6 +58,7 @@
           "slack"
           "rectangle"
           "spotify"
+          "battery"
         ];
       };
       nix.settings.experimental-features = "nix-command flakes";
