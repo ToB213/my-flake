@@ -51,7 +51,8 @@
       ];
       homebrew = {
         enable = true;
-        brews = [];
+        taps  = [ "quarkdown-labs/quarkdown" ];
+        brews = [ "quarkdown" ];
         casks = [
           "docker"
           "kitty"
